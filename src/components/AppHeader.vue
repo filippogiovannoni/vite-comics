@@ -14,7 +14,7 @@ export default {
         <nav>
             <div class="container">
                 <div class="logo">
-                    <img width="70%" src="../assets/img/dc-logo.png" alt="" srcset="">
+                    <img width="60%" src="../assets/img/dc-logo.png" alt="" srcset="">
                 </div>
                 <ul>
                     <li><a href="">Charachters</a></li>
@@ -39,9 +39,8 @@ export default {
 
 <style scoped>
 header {
-    min-height: 200px;
     background-color: var(--dc-white);
-    padding: 1rem 0;
+    padding: 5px 0;
 
     & .container {
         display: flex;
@@ -75,7 +74,8 @@ header {
                     text-decoration: none;
                     color: var(--dc-light);
                     font-weight: 600;
-                    font-size: 12px;
+                    font-size: 10px;
+                    text-transform: uppercase;
                 }
             }
         }

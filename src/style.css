@@ -8,9 +8,15 @@
   --dc-white: #FFFFFF;
   --dc-light: #303030;
   --dc-primary: #0082F9;
+  --dc-dark: #1C1C1C;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
 }
