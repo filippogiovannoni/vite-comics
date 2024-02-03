@@ -63,6 +63,8 @@ export default {
     background-color: var(--dc-primary);
     display: flex;
     padding: 2rem 0;
+    position: relative;
+    z-index: 1;
 
     & ul {
         display: flex;

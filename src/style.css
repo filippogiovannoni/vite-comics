@@ -9,6 +9,8 @@
   --dc-light: #303030;
   --dc-primary: #0082F9;
   --dc-dark: #1C1C1C;
+  --dc-gray: #303030;
+  --dc-light-gray: #797979;
 }
 
 body {
@@ -19,4 +21,8 @@ body {
 .container {
   width: 70%;
   margin: auto;
+}
+
+.d-flex {
+  display: flex;
 }
