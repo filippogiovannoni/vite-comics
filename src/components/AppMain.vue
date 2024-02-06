@@ -109,7 +109,7 @@ export default {
                 </div>
             </div>
             <div class="load">
-                <a href="">Load More</a>
+                <button>Load more</button>
             </div>
         </div>
         <AppMainBottom></AppMainBottom>
@@ -161,13 +161,13 @@ export default {
     text-align: center;
     padding-bottom: 1.5rem;
 
-    & a {
+    & button {
         color: var(--dc-white);
         font-weight: 600;
         text-transform: uppercase;
         padding: 0.5rem 2rem;
         background-color: var(--dc-primary);
-        text-decoration: none;
+        border-style: none;
 
     }
 }
