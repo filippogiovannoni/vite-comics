@@ -14,7 +14,7 @@ export default {
         <nav>
             <div class="container">
                 <div class="logo">
-                    <img width="60%" src="../assets/img/dc-logo.png" alt="" srcset="">
+                    <img width="60px" src="../assets/img/dc-logo.png" alt="" srcset="">
                 </div>
                 <ul>
                     <li><a href="">Charachters</a></li>
